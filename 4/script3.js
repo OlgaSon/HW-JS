@@ -1,9 +1,9 @@
 let arrTop = [];
 let arrLeft = [];
 
-function showMessage(text, bgColor, mTop, mLeft) {
+function showMessage(text, bgColor, mTop, mLeft) {//проверка после вставки - не оптимально
     const divMessage = document.createElement("div");
-    document.body.append(divMessage);
+    document.body.append(divMessage);//не тут
     divMessage.classList.add("message");
     divMessage.innerHTML = text;
     divMessage.style.backgroundColor = bgColor;
