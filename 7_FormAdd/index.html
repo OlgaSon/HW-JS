@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script7fa1.js" defer></script>
+    <script src="script7fa2.js" defer></script>
+    <script src="script7fa3.js" defer></script>
+    <script src="script7fa4.js" defer></script>
+</head>
+
+<body>
+
+    <article class="task1">
+        <h1>Task 1</h1>
+        <form action="" name="calcForm">
+                <label for="operation"></label>
+                <br>
+                <input type="radio" name="operation" value="income" id="">Income
+                <input type="radio" name="operation" value="expense" id="">Expense
+            <p>
+                <label for="sum">Sum:</label>
+                <input type="number" name="sum" value="0" id="">
+                <button type="submit" name="submit">Submit</button></p>
+        </form>
+        <div class="calcDiagramm">
+            <div class="income"></div>
+            <div class="expense"></div>
+        </div>
+        <div class="total"></div>
+    </article>
+    <hr>
+
+    <article class="task2">
+        <h1>Task 2</h1>
+        <button id="addNewItem">Добавить пользователя</button>
+        <table>
+            <thead>
+                <tr>
+                    <td>Имя</td>
+                    <td>Возраст</td>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <div class="display-none modal">
+            <form action="" id="feedbackForm" name="feedbackForm">
+                <label for="nameInp">Имя</label>
+                <input type="text" name="nameInp" id="">
+                <label for="ageInp">Возраст</label>
+                <input type="number" name="ageInp" id="">
+                <button name="addBtn" id="addBtn">Добавить</button>
+                <button name="cancelBtn" id="cancelBtn">Отмена</button>
+            </form>
+        </div>
+    </article>
+    <hr>
+
+    <article>
+        <h1>Task 3</h1>
+        <form action="" class="emailValidity" name="emailValidity">
+            <label for="email">email:</label>
+            <input type="text" name="email" id="" value="anystring@anystring.anystring">
+            <label for="anyText">Text:</label>
+            <input type="text" name="anyText" id="">
+            <button type="submit" name="submiteValidity">Submit</button>
+        </form>
+    </article>
+    <hr>
+    
+    <article class="task4">
+        <h1>Task 4</h1>
+        <form action="" class="drawFigure" name="drawFigure">
+            <input list="typeFigure" type="select" name="typeFigure" id="">
+            <datalist id="typeFigure">
+                <option value="circle">circle</option>
+                <option value="square">square</option>
+                <option value="rectangle">rectangle</option>
+            </datalist>
+            <label for="">Size:</label>
+            <input class="display-none" type="number" name="radius" id="">
+            <input class="display-none" type="number" name="side" id="">
+            <input class="display-none" type="number" name="anotherSide" id="">
+            <br>
+            <label for="color">Color:</label>
+            <input class="" type="text" name="color" id="">
+            <br>
+            <label for="mTop">Top:</label>
+            <input class="" type="number" name="mTop" id="">
+            <br>
+            <label for="mLeft">Left:</label>
+            <input class="" type="number" name="mLeft" id="">
+            <button type="submit" name="submiteFigure">submiteFigure</button>
+
+        </form>
+    </article>
+
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+}
+
+.calcDiagramm {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.expense,
+.income {
+    border: 1px solid black;
+    width: 200px;
+    font-size: 120%;
+    padding: 5px 20px;
+}
+
+.expense {
+    background-color: palevioletred;
+}
+
+.income {
+    background-color: rgb(48, 127, 173);
+}
+
+.total {
+    padding: 5px 100px;
+    background-color: rgba(241, 255, 118, 0.986);
+    font-size: 150%;
+    width: 200px;
+
+}
+
+
+
+
+body {
+    position: relative;
+    height: 100vh;
+}
+
+#feedbackForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal {
+    position: fixed;
+    width: 200px;
+    height: 100%x;
+    left: calc(50% - 100px);
+    top: calc(50% - 150px);
+    background-color: powderblue;
+}
+
+.display-none {
+    display: none;
+}
