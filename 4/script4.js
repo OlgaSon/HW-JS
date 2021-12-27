@@ -12,7 +12,7 @@ let createList = function (a) {
             return
         } else {
             const li = document.createElement("li");
-            li.innerHTML = sum;
+            li.innerHTML = sum;//почему html а не text?
             list.append(li);
         };
     };
