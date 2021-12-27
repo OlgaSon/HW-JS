@@ -2,8 +2,8 @@ let n = prompt("Введите число:");
 
 function isEven(n) {
     if ((n % 2 !== 0) ||
-        (n === "") ||
-        (n === "0") ||
+        (n == "") ||
+        (n == "0") ||
         (n === null)) {
         alert("false")
     } else alert("true");
