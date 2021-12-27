@@ -2,12 +2,12 @@ let floor = prompt('Введите американский этаж:');
 
 function convertFloor(floor) {
     if (floor < 0 || floor > 13) {
-        alert(floor)
+        alert(floor)//где ";"?
     } else if (floor >= 0 && floor < 13 && floor !== null && floor !== "") {
         alert(++floor);
-    } else alert("такой этаж не существует");
+    } else alert("такой этаж не существует");//где "{" и "}"?
 };
-convertFloor(floor)
+convertFloor(floor)//где ";"?
 
 
 // Задание 5 “Этажи”
