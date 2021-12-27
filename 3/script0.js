@@ -4,7 +4,7 @@ function sayHello(userName) {
     let message = 'Hello, ' + userName;
     alert(message);
 }
-(userName === "Mark") ? alert("Hi, " + userName): sayHello(userName);
+(userName === "Mark") ? alert("Hi, " + userName): sayHello(userName);//зачем тут первая пара скобок?
 
 // Задание 0
 // Лизе нужно написать функцию sayHello(name), которая возвращает
