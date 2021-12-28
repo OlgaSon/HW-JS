@@ -1,0 +1,19 @@
+.display-none {
+    display: none;
+}
+
+.message{
+    background-color: azure;
+    font: 2em bold sans-serif;
+    width: 50%;
+    height: 30%;
+    padding: 5%;
+
+}
+
+.loading{
+    font-style: italic;
+    color: grey;
+    margin-left: 20%;
+
+}
