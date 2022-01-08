@@ -24,7 +24,7 @@ const onSubmitCreateObject = (e) => {
     }; 
     // не записывает, объект пуст */
 
-    console.log({
+    console.log({//зачем?
         user
     });
     e.preventDefault();
